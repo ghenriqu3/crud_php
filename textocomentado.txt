@@ -1,0 +1,33 @@
+/*
+parte do codigo script.js
+success: function(){
+                //limpar campos do formulario
+                $("#nome").val("");
+                $("#email").val("");
+                //chamada da funcao para listar clientes abaixo do formulario
+                atualizarListaClientes();
+
+
+                // data:{nome:nome, email:email},
+            }
+*/
+
+
+
+
+// parte do codigo update.php
+//verificar se existe clientes trazendo os dados em HTML
+            // if(empty($clientes)){
+            //     echo "nenhum cliente foi encontrado";
+            // }else{
+                //exibir a lista de clientes
+            //     echo "<ul>";
+            //     foreach($clientes as $cliente){
+            //         echo "<li>{$cliente['Nome']} - {$cliente['email']}</li>";
+            //     }
+            //     echo "</ul>";
+            // }
+
+            //trazendo os dados do banco de dados no formato JSON
+
+            // echo "erro ao listar clientes:" . $e->getMessage();

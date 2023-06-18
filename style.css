@@ -1,0 +1,139 @@
+body{
+    background-color: #d0d0d0 !important;
+    height: 100vh;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: -1px 1px 20px 1px rgba(0, 0, 0, 0.157);
+    border-radius: 9px; */
+}
+.modal-1{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid rgb(225, 225, 225); 
+    /* box-shadow: -1px 1px 20px 1px rgba(0, 0, 0, 0.11); */
+    border-radius: 9px;
+    /* align-items: center; */
+}
+.main-title{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-2{
+    /* box-shadow: -1px 1px 20px 1px rgba(0, 0, 0, 0.092); */
+    background-color: #f1f1f1;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 9px;
+}
+
+.form-clientes{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.form-clientes > input{
+    /* max-width: 300px; */
+    width: 100%;
+    border-radius: 9px;
+    border:none;
+    background-color: #dedede;
+    padding: 20px;
+    margin: 12px 0;
+}
+
+.form-clientes > button{
+    max-width: 300px;
+    position: relative;
+    width: 90px;
+    height: 40px;
+    margin: 12px;
+    padding: 10px ;
+    border-radius: 50px;
+    border: none;
+    background-color: #2d2d2d;
+    color: white;
+    transition: .7s;
+}
+
+.form-clientes > button:hover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #000000;
+    width: 0;
+    height: 40px;
+    transform-origin: top left;
+    animation: efeitos .6s forwards;
+    border-radius: 50px;
+}
+
+@keyframes efeitos {
+    0% { width: 0; transform: scaleX(0); background-color:#2d2d2d;}
+    100% { width: 200px; transform: scaleX(1); background-color:#000; }
+    
+}
+
+/* button > span:hover{
+    display: block;
+    color: #fff;
+} */
+.form-clientes > button:hover{
+    width: 200px;
+}
+
+.title-clients{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.form-clientes > button:hover{
+    background-color:#000000;
+}
+
+#clientes-cadastrados{
+    height: 400px;
+    padding: 10px;
+}
+#clientes-cadastrados{
+    overflow: auto;
+}
+#clientes-cadastrados ul{
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clientes-cadastrados ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    /* margin: 12px 0; */
+    padding: 12px;
+    border-radius: 8px;
+    
+}
+
+#clientes-cadastrados ul li:nth-child(2n+1){
+    background-color: #dedede;
+}
+#clientes-cadastrados ul li button{
+    border: none;
+    border-radius: 4px;
+    color: #2d2d2d;
+}
+#clientes-cadastrados ul li button:hover{
+    background-color: #e7a1a1;
+}
+
+
+
+
+
+
+
