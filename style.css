@@ -1,5 +1,5 @@
 body{
-    background-color: #d0d0d0 !important;
+    background-color: #f1faee !important;
     height: 100vh;
 }
 
@@ -10,22 +10,26 @@ body{
     border-radius: 9px; */
 }
 .modal-1{
-    background-color: #f1f1f1;
+    background-color: #a8dadc;
     padding: 20px;
-    border: 1px solid rgb(225, 225, 225); 
+    border: 1px solid #F5F7EF;
     /* box-shadow: -1px 1px 20px 1px rgba(0, 0, 0, 0.11); */
     border-radius: 9px;
     /* align-items: center; */
 }
 .main-title{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
     justify-content: center;
+    color: #1d3557;
 }
 
 .modal-2{
     /* box-shadow: -1px 1px 20px 1px rgba(0, 0, 0, 0.092); */
-    background-color: #f1f1f1;
-    border: 1px solid rgb(226, 226, 226);
+    background-color: #a8dadc;
+    border: 1px solid #F5F7EF;
     border-radius: 9px;
 }
 
@@ -41,9 +45,11 @@ body{
     width: 100%;
     border-radius: 9px;
     border:none;
-    background-color: #dedede;
-    padding: 20px;
+    background-color: #f1faee;
+    padding: 15px;
     margin: 12px 0;
+    font-weight: 400px;
+    color: #1E152A;
 }
 
 .form-clientes > button{
@@ -55,8 +61,8 @@ body{
     padding: 10px ;
     border-radius: 50px;
     border: none;
-    background-color: #2d2d2d;
-    color: white;
+    background-color: #1d3557;
+    color: #fff;
     transition: .7s;
 }
 
@@ -65,7 +71,7 @@ body{
     position: absolute;
     top: 0;
     left: 10px;
-    background-color: #000000;
+    background-color: #1d3557;
     width: 0;
     height: 40px;
     transform-origin: top left;
@@ -74,8 +80,8 @@ body{
 }
 
 @keyframes efeitos {
-    0% { width: 0; transform: scaleX(0); background-color:#2d2d2d;}
-    100% { width: 200px; transform: scaleX(1); background-color:#000; }
+    0% { width: 0; transform: scaleX(0); background-color: #1d3557}
+    100% { width: 200px; transform: scaleX(1); background-color: #1d3557; }
     
 }
 
@@ -85,15 +91,17 @@ body{
 } */
 .form-clientes > button:hover{
     width: 200px;
+    background-color:#1d3557;
 }
 
 .title-clients{
     display: flex;
     /* align-items: center; */
     justify-content: center;
-}
-.form-clientes > button:hover{
-    background-color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #1d3557;
 }
 
 #clientes-cadastrados{
@@ -116,11 +124,12 @@ body{
     /* margin: 12px 0; */
     padding: 12px;
     border-radius: 8px;
-    
+    color: #1d3557;
 }
 
 #clientes-cadastrados ul li:nth-child(2n+1){
-    background-color: #dedede;
+    background-color: #457b9d;
+    color: #eeeeee;
 }
 #clientes-cadastrados ul li button{
     border: none;
@@ -128,12 +137,5 @@ body{
     color: #2d2d2d;
 }
 #clientes-cadastrados ul li button:hover{
-    background-color: #e7a1a1;
+    background-color: #F9E0D9;
 }
-
-
-
-
-
-
-

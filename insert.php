@@ -13,6 +13,8 @@
         $stmt->bindParam(':nome', $nome);
         $stmt->bindParam(':email', $email);
         $stmt->execute();
+        $response = array('status' => 'success', 'message' => 'Cliente inserido com sucesso');
+        echo json_encode($response);
 
 
     }catch(PDOException $e){

@@ -14,11 +14,7 @@ $(document).ready(function(){
                 // Limpar campos do formulário
                 $("#nome").val("");
                 $("#email").val("");
-                // Chamar função para listar clientes abaixo do formulário
-                var novoCLienteHTML = "<li>" + response.Nome + '---' + response.email + "</li>";
-                $("#clientes-cadastrados ul").append(novoCLienteHTML);
-                console.log("cliente cadastrado com sucesso");
-                // atualizarListaClientes();
+                atualizarListaClientes();
             },
             error: function(xhr, status, error){
                 console.log("Erro na requisição: " + error);
